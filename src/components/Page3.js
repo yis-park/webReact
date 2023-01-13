@@ -1,6 +1,7 @@
 import React from "react";
 
 function Page3() {
+  const path = process.env.PUBLIC_URL;
   return (
     <>
       {/* contents4 */}
@@ -43,7 +44,7 @@ function Page3() {
             </div>
           </div>
           <div className="flex_tab_img flex_tab_center">
-            <img src="./images/img-mockup-2.png" alt="pouch" />
+            <img src={path + "/images/img-mockup-2.png"} alt="pouch" />
           </div>
           <div className="flex_tab_right">
             <div className="flex_tab_right_fr">

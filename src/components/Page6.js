@@ -28,52 +28,31 @@ function Page6(props) {
                   Guaranteed benefit
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   Simple integration
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   Quickly review your ideas
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   The all-in-one digital toolkit
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   Guaranteed benefit
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   Simple integration
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   Quickly review your ideas
                 </li>
                 <li>
-                  <span className="material-symbols-rounded">
-                    {" "}
-                    expand_more{" "}
-                  </span>
+                  <span className="material-symbols-rounded">expand_more</span>
                   The all-in-one digital toolkit
                 </li>
               </ul>

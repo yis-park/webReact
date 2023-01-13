@@ -181,7 +181,7 @@ li {
   background-color: var(--themecolor);
   position: absolute;
   top: 52px;
-  left: 158px;
+  left: 140px;
   opacity: 0.8;
   z-index: -1;
 }
@@ -265,11 +265,11 @@ li {
 .contents3 .flex span::after {
   content: "";
   height: 0.4em;
-  width: 165px;
+  width: 163px;
   background-color: var(--themecolor);
   position: absolute;
   top: 185px;
-  left: 150px;
+  left: 142px;
   opacity: 0.8;
   z-index: -1;
 }
@@ -387,10 +387,25 @@ li {
   transition: 0.5s;
   transition: all;
   transform: translateY(45px);
+  animation-name: pouch;
+  animation-duration: 1s;
 }
 .flex_tab .flex_tab_center img {
   height: 700px;
+  transition: 0.5s;
+  overflow: hidden;
+  animation: pouch, 1s;
 }
+@keyframes pouch {
+  from {
+    transform: translate(150px);
+  }
+
+  to {
+    transform: translate(0);
+  }
+}
+
 .flex_tab .flex_tab_left {
   width: 25%;
   text-align: right;

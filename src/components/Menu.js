@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Menu() {
+  const path = process.env.PUBLIC_URL;
   return (
     <>
       <div className="container">
@@ -9,7 +10,7 @@ function Menu() {
         <header>
           {/* logo */}
           <Link to="/" className="logo">
-            <img src="./images/logo-dark.png" alt="logo" />
+            <img src={path + "/images/logo-dark.png"} alt="logo" />
           </Link>
           {/* 드롭다운 메뉴버튼 */}
           <ul className="gnb">

@@ -8,7 +8,7 @@ function Page2() {
   const OnPlay = () => {
     setIsNav(!isNav);
   };
-
+  const path = process.env.PUBLIC_URL;
   return (
     <>
       {/* contents3 */}
@@ -28,7 +28,7 @@ function Page2() {
           </h4>
         </div>
         <div className="video">
-          <img src="./images/09.jpg" alt="video" />
+          <img src={path + "/images/09.jpg"} alt="video" />
           <Link to="/" className={isNav ? "on" : ""} onClick={OnPlay}>
             <span className="material-symbols-rounded"></span>
           </Link>
@@ -51,17 +51,6 @@ function Page2() {
             <FaRegStopCircle />
           </div>
         </div>
-        {/* <div className="video">
-          <img src="./images/09.jpg" alt="video" />
-          <a href="#">
-            <span className="material-symbols-rounded">
-              <img
-                src="./images/arrow_right_FILL0_wght400_GRAD0_opsz48.png"
-                alt="arrow_right"
-              />
-            </span>
-          </a>
-        </div> */}
       </section>
     </>
   );
