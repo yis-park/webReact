@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 function Page3() {
   const path = process.env.PUBLIC_URL;

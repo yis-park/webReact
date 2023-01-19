@@ -55,9 +55,17 @@ li {
   color: #eee;
   height: 80px;
   padding: 0 180px;
-  background-color: rgba(255, 255, 255, 0.5);
+
   z-index: 999;
+  transition: 0.4s;
 }
+.on {
+  background-color: #fff;
+}
+.on a {
+  color: #666;
+}
+
 .container header .gnb {
   height: 80px;
   line-height: 80px;
@@ -71,6 +79,15 @@ li {
   width: 99.8px;
   height: 80px;
 }
+.logoImg {
+  display: none;
+}
+.on .logoImg {
+  display: block;
+}
+.on .logoDark {
+  display: none;
+}
 .container header .gnb > li > a {
   font-size: 1.1rem;
   font-weight: 500;
@@ -78,6 +95,7 @@ li {
   width: 120px;
   padding: 29px 15px;
 }
+
 .container header .gnb > li {
   font-weight: 500;
   font-size: 1rem;
@@ -312,7 +330,7 @@ li {
   line-height: 45px;
 }
 
-/* contents4 */
+/* contents4 (page3) */
 .contents4 {
   width: 100%;
   /* padding: 0 108px 108px 108px; */
@@ -383,7 +401,7 @@ li {
 .flex_tab .flex_tab_center {
   width: 48%;
   vertical-align: middle;
-  padding: 80px 12px;
+  padding: 60px 12px;
   transition: 0.5s;
   transition: all;
   transform: translateY(45px);
@@ -398,11 +416,11 @@ li {
 }
 @keyframes pouch {
   from {
-    transform: translate(150px);
+    transform: translateY(-150px);
   }
 
   to {
-    transform: translate(0);
+    transform: translateY(0);
   }
 }
 

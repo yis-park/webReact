@@ -1,16 +1,42 @@
-import React from "react";
+import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 function Menu() {
   const path = process.env.PUBLIC_URL;
+  const headerRef = useRef(null);
+  const handleScroll = () => {
+    console.log("스크롤 중");
+    if (window.scrollY > 150) {
+      headerRef.current.className = "on";
+    } else {
+      headerRef.current.className = "";
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <div className="container">
         {/* <header> */}
-        <header>
+
+        <header ref={headerRef}>
           {/* logo */}
           <Link to="/" className="logo">
-            <img src={path + "/images/logo-dark.png"} alt="logo" />
+            <img
+              className="logoDark "
+              src={path + "/images/logo-dark.png"}
+              alt="logo"
+            />
+            <img
+              className="logoImg"
+              src={path + "/images/logo.png"}
+              alt="logo"
+            />
           </Link>
           {/* 드롭다운 메뉴버튼 */}
           <ul className="gnb">

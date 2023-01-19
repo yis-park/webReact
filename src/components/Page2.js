@@ -37,8 +37,8 @@ function Page2() {
             className={!isNav ? "on" : ""}
             onClick={OnPlay}
             src="https://player.vimeo.com/video/544444262?h=8f60d3a658"
-            width="640"
-            height="360"
+            width="650"
+            height="370"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowFullScreen

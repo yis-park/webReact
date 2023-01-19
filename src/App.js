@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import React from "react";
 import Page1 from "./components/Page1";
 import Page2 from "./components/Page2";
@@ -16,7 +17,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      {/* <h1>App.js</h1> */}
       <Reset />
       <Menu />
       <Web />
