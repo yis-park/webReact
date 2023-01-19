@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webReact/static/css/main.b03ffcd0.css",
-    "main.js": "/webReact/static/js/main.5ea0357e.js",
+    "main.css": "/webReact/static/css/main.315fa53e.css",
+    "main.js": "/webReact/static/js/main.c13a3f65.js",
     "static/media/03.jpg": "/webReact/static/media/03.f8012df9231bdfd8670d.jpg",
     "static/media/02.jpg": "/webReact/static/media/02.9d5538113612d2ff3506.jpg",
     "static/media/05.jpg": "/webReact/static/media/05.2290730954694f3882c5.jpg",
@@ -11,11 +11,11 @@
     "static/media/07.jpg": "/webReact/static/media/07.a2039d556fb978d57d1b.jpg",
     "static/media/06.jpg": "/webReact/static/media/06.1a23e94429b7ef26abda.jpg",
     "index.html": "/webReact/index.html",
-    "main.b03ffcd0.css.map": "/webReact/static/css/main.b03ffcd0.css.map",
-    "main.5ea0357e.js.map": "/webReact/static/js/main.5ea0357e.js.map"
+    "main.315fa53e.css.map": "/webReact/static/css/main.315fa53e.css.map",
+    "main.c13a3f65.js.map": "/webReact/static/js/main.c13a3f65.js.map"
   },
   "entrypoints": [
-    "static/css/main.b03ffcd0.css",
-    "static/js/main.5ea0357e.js"
+    "static/css/main.315fa53e.css",
+    "static/js/main.c13a3f65.js"
   ]
 }
